@@ -8,6 +8,9 @@ if (file_exists("data.php")) {
 	$data = include ROOT_PATH.'data.php';
 }
 
+
+
+
 if (isset($_GET['val'])) {
 
 	$val = $_GET['val'];
